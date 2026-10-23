@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Pricing — SeePay</title>
+  <meta name="description" content="SeePay pricing for Ghanaian small businesses: GH₵150 one-time setup, no monthly subscription, and GH₵0.20 per successful paid order plus Paystack processing fees.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Sora:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/seepay.css">
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+</head>
+<body data-page="pricing">
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="nav">
+    <div class="container nav__inner">
+      <a class="brand" href="index.html" aria-label="SeePay home">
+        <span class="brand__mark" aria-hidden="true"><svg viewBox="0 0 32 32"><rect x="1" y="1" width="30" height="30" rx="9" fill="#0B2E21"/><path d="M21.8 9.4C20.6 8.2 18.6 7.6 16.7 7.8c-2.8.2-4.7 2-4.5 4.2.2 2.4 3.1 3.1 6 3.7 2.8.6 5.4 1.7 5.5 4.3.1 2.6-2.5 4.5-5.7 4.6-2.1.1-4.1-.5-5.5-1.7" fill="none" stroke="#FFC83D" stroke-width="3" stroke-linecap="round"/><circle cx="24.6" cy="7.4" r="2.3" fill="#E4402F"/></svg></span>
+        <span class="brand__word">See<b>Pay</b></span>
+      </a>
+      <nav aria-label="Main">
+        <ul class="nav__links">
+          <li><a class="nav-link" data-nav href="index.html">Home</a></li>
+          <li><a class="nav-link" data-nav href="pricing.html">Pricing</a></li>
+          <li><a class="nav-link" data-nav href="agents.html">Agents</a></li>
+          <li><a class="nav-link" data-nav href="store.html">Store preview</a></li>
+        </ul>
+      </nav>
+      <div class="nav__cta">
+        <a class="btn btn--outline btn--sm" href="login.html">Log in</a>
+        <a class="btn btn--gold btn--sm" href="register.html">Open your shop</a>
+        <button class="nav__burger" data-menu-open aria-label="Open menu" aria-controls="mobile-menu" aria-expanded="false">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <div id="mobile-menu" class="mobile-menu" role="dialog" aria-label="Menu">
+    <button class="mobile-menu__close" data-menu-close aria-label="Close menu">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6 6 18M6 6l12 12"/></svg>
+    </button>
+    <ul class="mobile-menu__links">
+      <li><a href="index.html" data-nav>Home</a></li>
+      <li><a href="pricing.html" data-nav>Pricing</a></li>
+      <li><a href="agents.html" data-nav>Agents</a></li>
+      <li><a href="store.html" data-nav>Store preview</a></li>
+      <li><a href="order-status.html" data-nav>Track an order</a></li>
+    </ul>
+    <a class="btn btn--gold" href="register.html">Open your shop</a>
+    <a class="btn btn--outline-light" href="login.html">Log in</a>
+  </div>
+
+  <main id="main">
+    <!-- ============ PAGE HERO ============ -->
+    <section class="page-hero page-hero--photo">
+      <div class="container page-hero__layout">
+        <div class="page-hero__copy">
+          <span class="eyebrow">Simple pricing</span>
+          <h1>Clear pricing for your SeePay shop</h1>
+          <p>Pay GH₵150 once to activate your shop. There is no monthly subscription. SeePay charges GH₵0.20 only on each successful paid order, in addition to Paystack's transaction fee.</p>
+          <div class="hero__actions" style="margin-top:24px;margin-bottom:0">
+            <a class="btn btn--gold btn--lg" href="register.html">Open your shop</a>
+            <a class="btn btn--outline btn--lg" href="#plans-title">See the fees</a>
+          </div>
+        </div>
+        <figure class="page-hero__media">
+          <img src="assets/images/merchant-food.jpg" loading="eager" decoding="async" alt="A local food seller preparing an order in Ghana" width="900" height="620" fetchpriority="high">
+          <figcaption>Made for everyday Ghanaian businesses</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- ============ PLANS ============ -->
+    <section class="section" aria-labelledby="plans-title">
+      <div class="container">
+        <div class="section-head">
+          <h2 id="plans-title">One-time setup. No monthly fees. Pay only when an order is paid.</h2>
+          <p>Activate your storefront once for GH₵150. Each successful paid order has a GH₵0.20 SeePay platform fee, plus Paystack’s separate transaction fee of 1.95% for local transactions.</p>
+        </div>
+        <div class="plan" id="plan-cards"><!-- rendered by core.js from SEEPAY_CONFIG.pricing --></div>
+
+        <div class="fee-example reveal" style="margin-top:26px">
+          <div class="fee-example__intro">
+            <span class="eyebrow">Fee example</span>
+            <h3>What a GH₵100 paid order costs</h3>
+            <p>Illustration for a local Paystack transaction, before any other adjustments.</p>
+          </div>
+          <div class="fee-example__rows">
+            <div><span>SeePay platform fee</span><strong>GH₵0.20</strong></div>
+            <div><span>Paystack local transaction fee (1.95%)</span><strong>GH₵1.95</strong></div>
+            <div class="fee-example__total"><span>Total transaction fees</span><strong>GH₵2.15</strong></div>
+          </div>
+          <p class="fee-example__foot">Paystack sets and collects its own processing fee. <a href="https://paystack.com/gh/pricing" target="_blank" rel="noopener noreferrer">View Paystack Ghana pricing ↗</a></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ COMPARISON ============ -->
+    <section class="section section--tint" aria-labelledby="compare-title">
+      <div class="container">
+        <div class="section-head">
+          <h2 id="compare-title">What every SeePay shop gets</h2>
+          <p>Every shop gets the tools to showcase products, collect orders and manage fulfilment. The SeePay platform fee is separate from Paystack’s own processing fee.</p>
+        </div>
+        <div class="cmp-table-wrap reveal">
+          <table class="cmp-table">
+            <thead>
+              <tr><th scope="col">Capability</th><th scope="col">Status</th><th scope="col">What it means</th></tr>
+            </thead>
+            <tbody>
+              <tr><th scope="row">Online storefront + shop link</th><td><span class="chip chip--ok"><span class="chip__dot"></span>Included</span></td><td>Your hosted shop page, ready to share anywhere.</td></tr>
+              <tr><th scope="row">Product catalogue</th><td><span class="chip chip--ok"><span class="chip__dot"></span>Included</span></td><td>Add product photos directly from your device, with prices, descriptions and availability.</td></tr>
+              <tr><th scope="row">Order management</th><td><span class="chip chip--ok"><span class="chip__dot"></span>Included</span></td><td>Incoming orders with buyer details and status tracking.</td></tr>
+              <tr><th scope="row">Buyer checkout</th><td><span class="chip chip--ok"><span class="chip__dot"></span>Included</span></td><td>A mobile-first page showing the order total before payment.</td></tr>
+              <tr><th scope="row">Public order-status page</th><td><span class="chip chip--ok"><span class="chip__dot"></span>Included</span></td><td>Shareable link so buyers can follow their own order.</td></tr>
+              <tr><th scope="row">Mobile Money checkout</th><td><span class="chip chip--ok"><span class="chip__dot"></span>Via Paystack</span></td><td>Paystack’s Ghana Mobile Money channel supports MTN, Telecel and AirtelTigo/AT.</td></tr>
+              <tr><th scope="row">SeePay platform charge</th><td><span class="chip chip--ok"><span class="chip__dot"></span>GH₵0.20</span></td><td>Charged per successful paid order, separately from Paystack’s transaction fee.</td></tr>
+              <tr><th scope="row">Settlement</th><td><span class="chip chip--ok"><span class="chip__dot"></span>Paystack</span></td><td>Paystack publishes automatic settlement to a configured bank account or mobile money destination on the next working day. <a href="https://paystack.com/gh/pricing" target="_blank" rel="noopener noreferrer">See settlement and transfer terms</a>.</td></tr>
+              <tr><th scope="row">Shop activation</th><td><span class="chip chip--ok"><span class="chip__dot"></span>GH₵150 once</span></td><td>One-time storefront setup and activation fee. There is no monthly subscription.</td></tr>
+              <tr><th scope="row">Agent referral programme</th><td><span class="chip chip--ok"><span class="chip__dot"></span>GH₵50</span></td><td>Agents earn GH₵50 for each eligible referred shop activation after the shop’s activation payment is verified.</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ HONEST FEE EXPLAINER ============ -->
+    <section class="section" aria-labelledby="honest-title">
+      <div class="container">
+        <div class="grid grid--3">
+          <div class="card card--hover reveal">
+            <div class="card__title"><span class="icon-tile"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5.5" width="18" height="13" rx="3"/><path d="M3 10.5h18"/><path d="M7 15h4"/></svg></span></div>
+            <h3>Simple, published SeePay fees</h3>
+            <p>Pay GH₵150 once to activate your shop, then GH₵0.20 for each successful paid order. There is no monthly subscription.</p>
+          </div>
+          <div class="card card--hover reveal">
+            <div class="card__title"><span class="icon-tile icon-tile--gold"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3v18M5.5 8.5h11a3.5 3.5 0 0 1 0 7h-9a3.5 3.5 0 0 0 0 7h11"/></svg></span></div>
+            <h3>Paystack processes payments</h3>
+            <p>Paystack’s own processing fee is charged separately from SeePay’s GH₵0.20 fee per successful paid order.</p>
+          </div>
+          <div class="card card--hover reveal">
+            <div class="card__title"><span class="icon-tile icon-tile--tint"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg></span></div>
+            <h3>No monthly subscription</h3>
+            <p>Once your shop is activated, SeePay does not charge a recurring monthly subscription fee.</p>
+          </div>
+        </div>
+
+        <div class="cta-band reveal" style="margin-top:34px">
+          <div class="cta-band__inner">
+            <div>
+              <h2 style="font-size:1.7rem">Ready when you are</h2>
+              <p>Set up your online shop with a one-time GH₵150 activation fee and no monthly subscription.</p>
+            </div>
+            <div class="flex" style="gap:14px">
+              <a class="btn btn--gold btn--lg" href="register.html">Open your shop</a>
+              <a class="btn btn--outline-light btn--lg" href="index.html">Back to overview</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__top">
+        <div class="footer__brand">
+          <a class="brand brand--light" href="index.html" aria-label="SeePay home">
+            <span class="brand__mark" aria-hidden="true"><svg viewBox="0 0 32 32"><rect x="1" y="1" width="30" height="30" rx="9" fill="#FFC83D"/><path d="M21.8 9.4C20.6 8.2 18.6 7.6 16.7 7.8c-2.8.2-4.7 2-4.5 4.2.2 2.4 3.1 3.1 6 3.7 2.8.6 5.4 1.7 5.5 4.3.1 2.6-2.5 4.5-5.7 4.6-2.1.1-4.1-.5-5.5-1.7" fill="none" stroke="#0B2E21" stroke-width="3" stroke-linecap="round"/><circle cx="24.6" cy="7.4" r="2.3" fill="#E4402F"/></svg></span>
+            <span class="brand__word">See<b>Pay</b></span>
+          </a>
+          <p>SeePay helps small businesses in Ghana open online storefronts, manage products and orders, and accept supported payments — with an agent programme that spreads the word.</p>
+        </div>
+        <nav aria-label="Platform">
+          <h4>Platform</h4>
+          <ul>
+            <li><a href="store.html">Storefront preview</a></li>
+            <li><a href="checkout.html">Checkout preview</a></li>
+            <li><a href="order-status.html">Track an order</a></li>
+            <li><a href="dashboard/index.html">Merchant dashboard</a></li>
+            <li><a href="pricing.html">Pricing</a></li>
+          </ul>
+        </nav>
+        <nav aria-label="SeePay">
+          <h4>SeePay</h4>
+          <ul>
+            <li><a href="agents.html">Agent programme</a></li>
+            <li><a href="agent-register.html">Become an agent</a></li>
+            <li><a href="register.html">Create account</a></li>
+            <li><a href="login.html">Log in</a></li>
+            <li><a href="help.html">Help centre</a></li>
+          </ul>
+        </nav>
+        <div>
+          <h4>Contact</h4>
+          <ul class="footer__contact">
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2.5" y="5" width="19" height="14" rx="3"/><path d="m3 7 9 6.5L21 7"/></svg><span><a href="help.html">SeePay help centre</a></span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 10.5c0 5.2-7.3 9.5-8 9.5s-8-4.3-8-9.5a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10.5" r="2.6"/></svg><span>Serving businesses across Ghana</span></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span>© <span data-year>2026</span> SeePay. All rights reserved.</span>
+        <span>MTN MoMo, Telecel Cash &amp; AT Money are trademarks of their respective owners — shown for payment identification only.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="supabase-config.js"></script>
+<script src="assets/js/supabase-client.js"></script>
+<script src="assets/js/core.js"></script>
+<script src="assets/js/live-app.js"></script>
+</body>
+</html>
