@@ -1,8 +1,0 @@
-[build]
-  publish = "."
-
-# Route vendorname.seepay.shop/ to store.html?shop=vendorname.
-# Add seepay.shop and *.seepay.shop to the Netlify site after DNS is ready.
-[[edge_functions]]
-  function = "storefront-subdomain"
-  path = "/"
